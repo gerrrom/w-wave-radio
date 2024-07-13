@@ -828,6 +828,10 @@
     padding-bottom: 30px;
   }
 
+  .podcast__img {
+    width: 100%;
+  }
+
   .podcast__subtitle {
     font-size: 16px;
   }
