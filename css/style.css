@@ -1119,43 +1119,43 @@ body {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.promo__btn path {
+.promo__link path {
   -webkit-transition: fill 0.3s ease-in-out;
   -o-transition: fill 0.3s ease-in-out;
   transition: fill 0.3s ease-in-out;
 }
 
-.promo__btn:focus {
+.promo__link:focus {
   outline: 2px solid var(--color-yellow);
   color: var(--color-black);
   background-color: var(--color-brown);
 }
 
-.promo__btn:hover {
+.promo__link:hover {
   color: var(--color-black);
   background-color: var(--color-yellow);
   outline: none;
 }
 
-.promo__btn:hover .circle {
+.promo__link:hover .circle {
   fill: var(--color-black);
 }
 
-.promo__btn:hover .line-svg {
+.promo__link:hover .line-svg {
   fill: var(--color-yellow);
 }
 
-.promo__btn:active {
+.promo__link:active {
   color: var(--color-black);
   background-color: var(--color-brown);
   outline: none;
 }
 
-.promo__btn:active .circle {
+.promo__link:active .circle {
   fill: var(--color-black);
 }
 
-.promo__btn:active .line-svg {
+.promo__link:active .line-svg {
   fill: var(--color-brown);
 }
 
