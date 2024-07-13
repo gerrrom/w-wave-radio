@@ -183,6 +183,10 @@
     width: calc((100% - (30px * 2)) / 3);
   }
 
+  .playlist__img {
+    height: 100%;
+  }
+
   .playlist__card {
     display: flex;
     padding-left: 10px;
@@ -1013,6 +1017,10 @@
 
   .playlist__item {
     flex-direction: column;
+  }
+
+  .playlist__img {
+    width: 100%;
   }
 
   .playlist__country--brit::before {
